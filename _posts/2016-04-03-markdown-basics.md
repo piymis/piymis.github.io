@@ -13,4 +13,8 @@ Well Markdown is simply a writing standard for web and other media which emphasi
 
 Markdown documents are like simple plaintext documents except they are more advanced than them and you can present your plaintext with more options to illustrate visually. There are some simple rules to enhance the presentation of your markdown document. I have listed them below.
 
-* To make characters bold, you can group the characters in \*\*chars\*\* so the result will be like **this**. 
+* To make characters bold, you can group the characters in \*\*chars\*\* so the result will be like **this**.
+* For italic place the characters like this \*chars\* to get this *result*.
+* Headings can be formed by placing a \# at the start of a line. \# is for heading 1 which is the biggest heading. If you want smaller headings you can use \##.
+
+> # Heading 1
