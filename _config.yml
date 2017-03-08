@@ -1,0 +1,20 @@
+# Site settings
+title: Piyush Mishra
+description: >
+  Hi, I am Piyush Mishra. I am a QA Engineer and have interest in 
+  computer programming. Welcome to my site.
+
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: http://piymis.github.io # the base hostname & protocol for your site
+
+author:
+  fullname: Piyush Mishra
+  googleplus: https://plus.google.com/u/0/+PiyushMishra0
+  github: piymis
+  twitter: piy_mis
+  # disqus: your_disqus_username
+
+# google_analytics: 'UA-XXXXXXXX-X'
+
+# Build settings
+markdown: kramdown
