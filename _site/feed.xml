@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Piyush Mishra</title>
+    <description>Blog</description>
+    <link>http://localhost:4000/blog/</link>
+    <atom:link href="http://localhost:4000/blog/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Thu, 06 Jul 2017 00:56:00 +0530</pubDate>
+    <lastBuildDate>Thu, 06 Jul 2017 00:56:00 +0530</lastBuildDate>
+    <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Set Up My Blog</title>
+        <description>&lt;p&gt;Okay, so here’s the beginning. Blog setup &lt;code class=&quot;highlighter-rouge&quot;&gt;done&lt;/code&gt;. Now need to start writing my thoughts, ideas or anything I feel like. 
+Have few things in mind currently, let’s hope will be back soon.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 28 Mar 2017 00:00:00 +0530</pubDate>
+        <link>http://localhost:4000/blog/2017/set-up-my-blog/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2017/set-up-my-blog/</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>
