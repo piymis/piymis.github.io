@@ -5,11 +5,11 @@ title2: ""# default: ""
 description: "Blog"
 keywords: "programming,"
 url: http://piymis.github.io # site url
-baseurl: "" # apply repo name if use it under gh-pages branch
-# baseurl: null # apply null if repo name is something like username.github.io
+#baseurl: "" # apply repo name if use it under gh-pages branch
+baseurl: null # apply null if repo name is something like username.github.io
 
 google_analytics: UA-96336242-1 
-repo: http://github.com/piymis/blog
+repo: https://github.com/piymis/piymis.github.io
 disqus_shortname: "piymis-github-io"
 twitter_username: "piy_mis"
 comments: true
