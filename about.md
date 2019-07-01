@@ -62,9 +62,16 @@ I am an avid lifelong learner and support the access of free learning resources 
 <!-- --------Courses ------------  -->
 ### Online Courses
 
-* **Introduction to Computer Science and Programming**: Massachusetts Institute of Technology
-* **Algorithmic Toolbox**: University of California San Diego
-* **Data Structures**: University of California San Diego
-* **Heterogeneous Parallel Programming**: University of Illinois at Urbana-Champaign
+* [**Introduction to Computer Science and Programming**: Massachusetts Institute of Technology](https://s3.amazonaws.com/verify.edx.org/downloads/69834e985a044326947b17d9f4825d8b/Certificate.pdf)
+* [**Algorithmic Toolbox**: University of California San Diego](https://www.coursera.org/account/accomplishments/certificate/Q3YTEHXZDAZ3)
+* [**Data Structures**: University of California San Diego](https://www.coursera.org/account/accomplishments/certificate/88AVGHT2VZTL)
+* [**Heterogeneous Parallel Programming**: University of Illinois at Urbana-Champaign](https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/970755~5380416/pdf)
+* [**Computer Networks**: University of Washington](https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/971654~5380416/pdf)
+* [**Computer Networks**: Stanford University](https://prod-cert-bucket.s3.amazonaws.com/downloads/21f6239a7c5e44a9aaf39008fccafe71/Certificate.pdf)
+* [**Control of Mobile Robots**: Georgia Institute of Technology](https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/971717~5380416/pdf)
+* [**Image and video processing**: Duke University](https://www.coursera.org/api/legacyCertificates.v1/spark/statementOfAccomplishment/971618~5380416/pdf)
+* [**Big Data and Social Physics**:  Massachusetts Institute of Technology](https://s3.amazonaws.com/verify.edx.org/downloads/6b9aa3cfbbda408b93263ab06b176d86/Certificate.pdf)
+* [**Introduction to Linux**: Linux Foundation](https://s3.amazonaws.com/verify.edx.org/downloads/68f17cea0b284bd7ae3e2bae4e3bf8a2/Certificate.pdf)
+
  
 <!-- ------------------------------------------- -->
