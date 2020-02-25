@@ -10,6 +10,6 @@ fields:
   name: title
   label: title
 pages:
-- "./_posts/dsdsdasd.md"
+- "./_posts/2020-02-25-dsdsdasd.md"
 - _posts/2020-02-24-test.md
 - _posts/2020-02-24-test.md
