@@ -10,7 +10,5 @@ fields:
   name: title
   label: title
 pages:
-- "./_posts/2020-02-24-njnjnjnjn.md"
-- "./_posts/_posts/2020-02-24-xzxzxzxxzxzxz.md"
-- "./_posts/_posts/2020-02-24-xzxzxzxxzxzxz.md"
+- _posts/2020-02-24-test.md
 - _posts/2020-02-24-test.md
