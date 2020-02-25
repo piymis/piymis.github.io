@@ -1,6 +1,7 @@
 ---
+title: Set Up My Blog
+date: 2017-03-28 00:00:00 Z
 layout: post
-title: "Set Up My Blog"
 ---
 
 Okay, so here's the beginning. Blog setup `done`. Now need to start writing my thoughts, ideas or anything I feel like. 
