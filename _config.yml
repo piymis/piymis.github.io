@@ -1,44 +1,37 @@
+# Site settings
+title_left    : "Piyush"
+title_right   : "Mishra" # default: ""
+description   : "Blog"
+keywords      : "Programming"
+url           : http://piymis.github.io # site url
+baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
+cover         : "" # image uri like logo/cover image for site seo
 
-# SEO settings
-title: "Piyush Mishra"
-title2: ""# default: ""
-description: "Blog"
-keywords: "programming,"
-url: http://piymis.github.io # site url
-#baseurl: "" # apply repo name if use it under gh-pages branch
-baseurl: null # apply null if repo name is something like username.github.io
-
-google_analytics: UA-96336242-1 
-repo: https://github.com/piymis/piymis.github.io
-disqus_shortname: "piymis-github-io"
-twitter_username: "piy_mis"
-comments: true
+google_analytics  : UA-96336242-1
+twitter_username  : "piy_mis"
+comments_enabled  : true # if enabled (set to true), please provide your disqus_username
+disqus_shortname  : "piymis-github-io"
+postshare_enabled : false
 
 # Build settings
 permalink   : /:year/:title/
 markdown    : kramdown
 highlighter : rouge
 
-source: ./
-destination: ./_site
+source      : ./
+destination : ./_site
 
 # Sass configuration
 sass:
-  sass_dir: assets/scss
-  style: compressed # expanded
+  sass_dir  : assets/scss
+  style     : compressed # expanded
 
 # Author settings
 author:
   name     : "Piyush Mishra"
-  job      : "Programmer/Developer/Engineer"
-  bio      : "You have found my personal homepage. Welcome to it!"
-      
-# social settings
-og_locale: "en_US"
-twitter_card: "summary_large_image"
-twitter_site: "@piy_mis"
 
-gems:
+plugins:
+  - jekyll-sitemap
   - bourbon
   - jekyll-paginate
 
@@ -49,4 +42,4 @@ navbar:
   - slug : blog
     title: Blog
 
-exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md"]
+exclude: ["gulp", "node_modules", "bower", "bower_components", "config.rb", "src", "Gemfile", "Gemfile.lock", ".rvmrc", ".rbenv-version", "package.json", "gulpfile.js", "README.md", "Rakefile", "changelog.md", "script", "vendor"]
