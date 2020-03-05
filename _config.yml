@@ -15,6 +15,8 @@ keywords: Programming
 url: https://piymis.com
 baseurl: 
 cover: 
+paginate: 8
+paginate_path: "/blog/page/:num"
 google_analytics: UA-96336242-1
 twitter_username: piy_mis
 comments_enabled: true
