@@ -10,3 +10,7 @@ I had started with my Masters in Computer Science from GeorgiaTech this summer. 
 ### Projects
 
 There are a total of three projects in this course. The first two being in C. The last one is in C++.
+1. The first project is basically the implementation of a multithreaded HTTP like file transfer protocol named GETFILE.
+2. The second project is the extension of the first one and here we are to implement the caching server for the server in the previous portion.
+3. The third project is the implementation of a distributed file system using gRPC in C++. This was the hardest one for me and I wasn't able to complete it due to the time constraints.
+
