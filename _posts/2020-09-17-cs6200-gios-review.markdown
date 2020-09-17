@@ -1,6 +1,8 @@
 ---
 title: CS6200 GIOS Review
 date: 2020-09-17 21:54:00 +05:30
+categories:
+- OMSCS
 ---
 
 CS 6200 (Introduction to Operating System) also known as GIOS is one of the highly rated courses in the program and now I can see it why. The lectures are very polished and the material is quite broad and depth. 
