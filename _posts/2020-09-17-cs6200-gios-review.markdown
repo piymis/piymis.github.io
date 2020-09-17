@@ -1,0 +1,18 @@
+---
+title: CS6200 GIOS Review
+date: 2020-09-17 21:54:00 +05:30
+---
+
+CS 6200 (Introduction to Operating System) also known as GIOS is one of the highly rated courses in the program and now I can see it why. The lectures are very polished and the material is quite broad and depth. 
+Below is my review of the course when I took in the summer of 2020.
+
+### Projects
+
+There are a total of three projects in this course. The first two being in C. The last one is in C++.
+1. The first project is the implementation of a multithreaded HTTP like file transfer protocol named GETFILE.
+2. The second project is the extension of the first one and here we are to implement the caching server for the server in the previous portion.
+3. The third project is the implementation of a distributed file system using gRPC in C++. This was the hardest one for me and I wasn't able to complete it due to the time constraints.
+
+### Exams
+
+There are two exams in the course a midterm and a final. The midterm covers the first two units of lectures and the rest is covered in the final. The exams are mostly objective answer questions. I found the midterm to be moderate in difficulty but the final was certainly on the harder side of difficulty.
