@@ -28,7 +28,7 @@ Unsure:
 * Video Game Design: Newly offered course involves designing and developing 3d games using unity.
 * Computer Networks: Advanced computer network course.
 * Introduction to Information Security: Information security practical applications.
+* High-Performance Computer Architecture
 * Distributed Systems (Course still in development by Prof. Ada)
 
 There are more than ten courses in the list above and one needs a total of 10 courses to graduate but I am considering taking more of these courses even after I graduate to keep the learning.
-
