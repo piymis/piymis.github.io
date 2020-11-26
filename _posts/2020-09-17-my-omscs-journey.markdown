@@ -1,6 +1,7 @@
 ---
 title: My OMSCS journey
 date: 2020-09-17 01:43:00 +05:30
+published: false
 categories:
 - OMSCS
 ---
