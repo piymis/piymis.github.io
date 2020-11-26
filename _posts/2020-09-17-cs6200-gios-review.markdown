@@ -1,6 +1,7 @@
 ---
 title: CS 6200 GIOS Review
 date: 2020-09-17 21:54:00 +05:30
+published: false
 categories:
 - OMSCS
 ---
