@@ -44,10 +44,8 @@ Haystack architecture consists of 3 core components: The Haystack Store, Haystac
 * In case of cache miss fetches the photo from store machine identified in the URL and replies.
 
 * Caches photo only when
-
-** The request comes directly from the user and not CDN, as post CDN caching is usually ineffective as fewer chances of cache hit when it misses CDN.
-
-** Photo is fetched from write enabled store machine. Used to shelter right enabled machine from reads using Cache as found due to high workload of reads after write.
+    * The request comes directly from the user and not CDN, as post CDN caching is usually ineffective as fewer chances of cache hit when it misses CDN.
+    * Photo is fetched from write enabled store machine. Used to shelter right enabled machine from reads using Cache as found due to high workload of reads after write.
 
 ## Haystack Store:
 * For read the request contains photo id, logical volume & store machine id. Returns photo in case of success else returns an error.
