@@ -9,20 +9,20 @@ The following article is the paper summary done by me for Facebook's object stor
 Haystack is an object storage system optimized for Facebook’s photo application.  It is designed to serve long-tail requests of sharing photos in a large social network. It provides a fault-tolerant and simple storage solution for photos that is incrementally scalable to serve large users and requests.
 
 # Need for Haystack:
-•	Need for write once, read often, never modified, and seldom deleted storage system.
+* Need for write once, read often, never modified, and seldom deleted storage system.
 
-•	Facebook handles one million images at the peak, need to better scale to handle further loads in the future.
+* Facebook handles one million images at the peak, need to better scale to handle further loads in the future.
 
-•	Traditional file systems need to read metadata from disk, which counts for billions of photos results in throughput bottleneck.
+* Traditional file systems need to read metadata from disk, which counts for billions of photos results in throughput bottleneck.
 
-•	Overall, the previous approach of NFS + NAS + CDN required many disk operations (at least three) to read a single photo. 
+* Overall, the previous approach of NFS + NAS + CDN required many disk operations (at least three) to read a single photo. 
 
 # Goals of Haystack:
-•	High throughput and low latency: Keep all metadata in main memory, thereby requiring at most 1 disk read operation per photo.
+* High throughput and low latency: Keep all metadata in main memory, thereby requiring at most 1 disk read operation per photo.
 
-•	Fault-tolerant: Replicates each photo in geographically distinct regions.
+* Fault-tolerant: Replicates each photo in geographically distinct regions.
 
-•	Cost-effective: Usable storage and read rate normalized is better than NFS using per terabyte storage as a metric.
+* Cost-effective: Usable storage and read rate normalized is better than NFS using per terabyte storage as a metric.
 
 •	Simple: Quick to build, deploy, and manage in the production environment.
 
@@ -45,7 +45,7 @@ Haystack architecture consists of 3 core components: The Haystack Store, Haystac
 
 •	Caches photo only when
 
-o	Request comes directly from the user and not CDN, as post CDN caching is usually ineffective as fewer chances of cache hit when it misses CDN.
+Request comes directly from the user and not CDN, as post CDN caching is usually ineffective as fewer chances of cache hit when it misses CDN.
 
 o	Photo is fetched from write enabled store machine. Used to shelter right enabled machine from reads using Cache as found due to high workload of reads after write.
 
