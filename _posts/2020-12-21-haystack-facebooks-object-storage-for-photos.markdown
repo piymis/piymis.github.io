@@ -3,6 +3,8 @@ title: Haystack - Facebook's object storage for photos
 date: 2020-12-21 01:30:00 +05:30
 ---
 
+The following article is the paper summary done by me for Facebook's object storage system used for storing photos known as Haystack[1].
+
 # Introduction:
 Haystack is an object storage system optimized for Facebook’s photo application.  It is designed to serve long-tail requests of sharing photos in a large social network. It provides a fault-tolerant and simple storage solution for photos that is incrementally scalable to serve large users and requests.
 
@@ -52,3 +54,8 @@ o	Photo is fetched from write enabled store machine. Used to shelter right enabl
 •	Haystack store targets the long tail of photo requests while maintaining high throughput and low latency despite random reads.
 •	Haystack machines use NVRAM-backed RAID controller for buffering the writes, thus allowing async writes and flushing post that using single fsync reducing write latency.
 •	CPU utilization of store machines is low and idle time ranges in 92-96%.
+
+References:
+1. Finding a needle in Haystack: Facebook’s photo storage
+Doug Beaver, Sanjeev Kumar, Harry C. Li, Jason Sobel, Peter Vajgel,
+Facebook Inc.
