@@ -8,7 +8,7 @@ date: 2021-10-22 22:00:00 +05:30
 stack = [] # Stack created using list in python
 stack.pop() # Stack Pop
 stack.append() # Stack Push
-
+```
 ### Heaps
 ```
 import heapq # Need to import the library
