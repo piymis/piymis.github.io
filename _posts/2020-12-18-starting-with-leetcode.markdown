@@ -3,10 +3,6 @@ title: Making problem-solving a habit
 date: 2020-12-18 00:57:00 +05:30
 categories:
 - leetcode
-tags:
-- leetcode
-- algorithm
-- datastructure
 layout: post
 ---
 
