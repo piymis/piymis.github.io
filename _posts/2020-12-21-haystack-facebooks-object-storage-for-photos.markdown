@@ -1,6 +1,8 @@
 ---
 title: Haystack - Facebook's object storage for photos
 date: 2020-12-21 01:30:00 +05:30
+categories:
+- system design
 ---
 
 The following article is the paper summary done by me for Facebook's object storage system used for storing photos known as Haystack[1].
