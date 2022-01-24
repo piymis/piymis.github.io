@@ -1,6 +1,8 @@
 ---
 title: Set Up My Blog
-date: 2017-03-28 00:00:00 Z
+date: 2017-03-28 05:30:00 +05:30
+categories:
+- Other
 layout: post
 ---
 
