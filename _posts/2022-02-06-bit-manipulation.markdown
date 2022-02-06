@@ -42,11 +42,11 @@ categories:
 
 ## Isolate the rightmost 0 bit
 
-`~num & (num+1)
+`~num & (num+1)`
 
 ## Set the rightmost 0 bit
 
-`num | (num+1)
+`num | (num+1)`
 
 ### References
 
