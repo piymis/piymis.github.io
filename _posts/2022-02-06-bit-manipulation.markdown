@@ -7,12 +7,12 @@ categories:
 
 ### Check if the number is even or odd
 
-num & 1
+`num & 1`
 
 ### Check if the nth bit from the right (starting from 0th position) is set or not
 
-num & (1<<n)
+`num & (1<<n)`
 
 ### Set the nth bit from right
 
-num | (1<<n)
+`num | (1<<n)`
