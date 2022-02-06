@@ -5,6 +5,13 @@ categories:
 - dsa
 ---
 
+### Two's complement
+
+```
+-num = ~num + 1
+~num = -num + 1
+```
+
 ### Check if the number is even or odd
 
 `num & 1`
@@ -24,3 +31,11 @@ categories:
 ### Toggle the nth bit from right
 
 `num ^ (1<<n)`
+
+### Unset rightmost set bit
+
+`num & (num-1)`
+
+### Isolate the rightmost set bit
+
+`num & (-num)`
