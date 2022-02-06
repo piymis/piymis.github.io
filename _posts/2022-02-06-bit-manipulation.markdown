@@ -20,3 +20,7 @@ categories:
 ### Unset the nth bit from right
 
 `num & ~(1<<n)`
+
+### Toggle the nth bit from right
+
+`num ^ (1<<n)`
