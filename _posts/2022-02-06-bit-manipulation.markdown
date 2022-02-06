@@ -16,3 +16,7 @@ categories:
 ### Set the nth bit from right
 
 `num | (1<<n)`
+
+### Unset the nth bit from right
+
+`num & ~(1<<n)
