@@ -3,6 +3,8 @@ title: Tree traversals
 date: 2022-02-27 11:21:00 +05:30
 ---
 
+### Inorder Iterative
+
 ```
 class Solution:
     def inorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
@@ -24,6 +26,9 @@ class Solution:
 ```
 
 ```
+
+### Preorder Iterative
+
 class Solution:
     def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
         if not root:
@@ -45,4 +50,10 @@ class Solution:
                     stack.append(root.left)
                     
         return res
+```
+
+### Postorder Iterative
+
+```
+
 ```
