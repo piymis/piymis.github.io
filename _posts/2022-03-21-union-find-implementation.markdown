@@ -1,6 +1,8 @@
 ---
 title: Union Find implementation
 date: 2022-03-21 01:09:00 +05:30
+categories:
+- dsa
 ---
 
 ```
