@@ -41,6 +41,8 @@ navbar:
   title: About Me
 - slug: blog
   title: Blog
+- slug: resume
+  title: Resume
 exclude:
 - gulp
 - node_modules
