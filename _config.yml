@@ -15,13 +15,13 @@ keywords: Programming
 url: https://piymis.com
 baseurl: 
 cover: 
-paginate: 8
+paginate: 10
 paginate_path: "/blog/page/:num"
 google_analytics: UA-96336242-1
 twitter_username: piy_mis
 comments_enabled: true
 disqus_shortname: piymis-github-io
-postshare_enabled: false
+postshare_enabled: true
 permalink: "/:year/:title/"
 markdown: kramdown
 highlighter: rouge
