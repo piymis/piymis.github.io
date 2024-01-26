@@ -38,7 +38,7 @@ plugins:
 - jekyll-paginate
 navbar:
 - slug: about
-  title: About
+  title: About Me
 - slug: blog
   title: Blog
 exclude:
