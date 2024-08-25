@@ -42,7 +42,7 @@ navbar:
 - slug: blog
   title: Blog
 - slug: resume
-  title: Resume
+  title: 'Resume '
 exclude:
 - gulp
 - node_modules
