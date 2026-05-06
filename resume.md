@@ -49,8 +49,14 @@ layout: page
 <!-- --------PROGRAMMING SKILLS------------ -->
 
 ### Programming Skills
+### Programming Languages:
+* Python
+* Java
+* C
+* C++
+* Scala
 
-* **Languages**: C, Python, Javascript, C++, SQL, Java, Perl
+* **Languages**: Python, Java, C, C++, Scala, SQL 
 * **Technologies**: Django, Flask, Bootstrap
 
 <!-- --------Courses ------------  -->
